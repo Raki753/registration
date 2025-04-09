@@ -20,6 +20,14 @@ This is a fullstack user registration CRUD application built using Django for th
 - Database: SQLite (default)
 
 ---
+## Steps To Run The code
+
+- Copy the project link: https://github.com/Raki753/registration.git
+- Open Terminal and Clone The Repository: git clone https://github.com/Raki753/registration.git
+- cd registration (if its in other dir)
+- Run The development Server: python manage.py runserver
+
+---
 
 ## Project Structure
 
