@@ -22,3 +22,30 @@ This is a fullstack user registration CRUD application built using Django for th
 ---
 
 ## Project Structure
+
+registration_project/
+├── registration_project/          # Django project settings
+│   ├── init.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── registration_app/              # Django app
+│   ├── migrations/                # Database migrations
+│   │   └── init.py
+│   ├── templates/                 # HTML templates
+│   │   ├── user_list.html
+│   │   ├── user_form.html
+│   │   └── user_confirm_delete.html
+│   ├── init.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+│
+├── db.sqlite3                     # Default SQLite DB (optional: use MySQL/PostgreSQL)
+├── manage.py                      # Django management script
+├── README.md                      # Project overview and instructions
